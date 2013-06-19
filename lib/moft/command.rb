@@ -14,9 +14,8 @@ module Moft
           dir.gsub("\\","/")
           dirs += ["%s/**/*" % [dir]]
         end
-        
-        return dirs
       end
+      return dirs
       
     end
 
