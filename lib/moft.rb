@@ -56,7 +56,7 @@ require_all 'moft/tags'
 SafeYAML::OPTIONS[:suppress_warnings] = true
 
 module Moft
-  VERSION = '1.0.2'
+  VERSION = '1.0.5'
 
   # Public: Generate a Moft configuration Hash by merging the default
   # options with anything in _config.yml, and adding the given options on top.

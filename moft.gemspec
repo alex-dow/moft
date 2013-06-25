@@ -4,9 +4,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
 
   s.name              = 'moft'
-  s.version           = '1.0.4'
+  s.version           = '1.0.5'
   s.license           = 'MIT'
-  s.date              = '2013-05-08'
+  s.date              = '2013-06-25'
   s.rubyforge_project = 'moft'
 
   s.summary     = "A simple, static site generator that is based off of Jekyll."
@@ -47,7 +47,6 @@ Gem::Specification.new do |s|
 
   # = MANIFEST =
   s.files = %w[
-    Gemfile
     LICENSE
     bin/moft
     moft.gemspec
